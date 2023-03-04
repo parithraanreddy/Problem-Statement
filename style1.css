@@ -1,0 +1,68 @@
+
+body {
+ background-color: whitesmoke;
+}
+.background-image {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url("IMG_5369.jpg");
+	background-size: cover;
+	background-position: center;
+	z-index: -1;
+}
+ .container {
+	margin: auto;
+	width: 30%;
+    height: 550px;
+	padding: 10px;
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 15px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+h2 {
+	text-align: center;
+	margin-top: 0;
+    font-size: 40px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 20px;
+}
+
+label {
+	font-size: 1.2em;
+	margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="submit"] {
+	padding: 10px;
+	font-size: 1em;
+	border-radius: 5px;
+	border: none;
+	margin-bottom: 10px;
+	width: 60%;
+}
+
+input[type="submit"] {
+	background-color: #4CAF50;
+	color: white;
+	cursor: pointer;
+	transition: background-color 0.2s ease;
+}
+
+input[type="submit"]:hover {
+	background-color: #3e8e41;
+}
